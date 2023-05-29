@@ -14,7 +14,7 @@
     <!-- CONFIG JS DASHBOARDNYA BANG -->
     <script src="assets/js/head.js"></script>
     <!-- Bootstrap bang -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="app-style" />
+    <link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" id="app-style">
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons bang -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
@@ -53,11 +53,11 @@
                             data-bs-toggle="dropdown">Ihsan Maulana</a>
                         <div class="dropdown-menu user-pro-dropdown">
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="fe-user me-1"></i>
+                                <i class="ri-user-line"></i>
                                 <span>My Account</span>
                             </a>
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="fe-log-out me-1"></i>
+                                <i class="ri-logout-circle-line"></i>
                                 <span>Logout</span>
                             </a>
                         </div>
@@ -78,7 +78,7 @@
                         <a href="#menuTasks" data-bs-toggle="collapse" class="menu-link">
                             <span class="menu-icon"><i data-feather="clipboard"></i></span>
                             <span class="menu-text"> Tasks </span>
-                            <span class="menu-arrow"></span>
+                            <span class="ri-arrow-down-s-line"></span>
                         </a>
                         <div class="collapse" id="menuTasks">
                             <ul class="sub-menu">
@@ -124,7 +124,7 @@
                         </div>
                         <!-- Tombol buat sidebar -->
                         <button class="button-toggle-menu">
-                            <i class="mdi mdi-menu"></i>
+                            <i class="ri-menu-line"></i>
                         </button>
                     </div>
                     <ul class="topbar-menu d-flex align-items-center">
@@ -169,7 +169,7 @@
                                 aria-expanded="false">
                                 <img src="#" alt="muka orang" class="rounded-circle">
                                 <span class="ms-1 d-none d-md-inline-block">
-                                    Ihsan <i class="mdi mdi-chevron-down"></i>
+                                    Ihsan <i class="ri-arrow-down-double-line"></i>
                                 </span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
@@ -177,16 +177,16 @@
                                     <h6 class="text-overflow m-0">Welcome !</h6>
                                 </div>
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="fe-user"></i>
+                                    <i class="ri-user-line"></i>
                                     <span>My Account</span>
                                 </a>
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="fe-settings"></i>
+                                    <i class="ri-settings-2-line"></i>
                                     <span>Settings</span>
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="fe-log-out"></i>
+                                    <i class="ri-logout-circle-line"></i>
                                     <span>Logout</span>
                                 </a>
                             </div>
@@ -210,7 +210,7 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="avatar-lg rounded-circle bg-soft-primary border-primary border">
-                                                <i class="ri-inbox-archive-fill font-22 avatar-title text-primary"></i>
+                                                <i class="ri-heart-line font-22 avatar-title text-primary"></i>
                                             </div>
                                         </div>
                                         <div class="col-6">
@@ -230,7 +230,7 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="avatar-lg rounded-circle bg-soft-success border-success border">
-                                                <i class="fe-shopping-cart font-22 avatar-title text-success"></i>
+                                                <i class="ri-heart-line font-22 avatar-title text-success"></i>
                                             </div>
                                         </div>
                                         <div class="col-6">
@@ -249,7 +249,7 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="avatar-lg rounded-circle bg-soft-info border-info border">
-                                                <i class="fe-bar-chart-line- font-22 avatar-title text-info"></i>
+                                                <i class="ri-heart-line font-22 avatar-title text-info"></i>
                                             </div>
                                         </div>
                                         <div class="col-6">
@@ -269,7 +269,7 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="avatar-lg rounded-circle bg-soft-warning border-warning border">
-                                                <i class="fe-eye font-22 avatar-title text-warning"></i>
+                                                <i class="ri-heart-line font-22 avatar-title text-warning"></i>
                                             </div>
                                         </div>
                                         <div class="col-6">
