@@ -17,7 +17,7 @@ Install Dashboldio with git
     
 ## Tech Stack
 
-**FE:** Bootstrap 5, HTML5, CSS3, JQuery
+**FE:** Bootstrap 5 (https://getbootstrap.com), HTML5, CSS3, JQuery (https://jquery.com)
 
-**Tools:** Remixicon 3
+**Tools:** Remixicon 3 (https://remixicon.com)
 
